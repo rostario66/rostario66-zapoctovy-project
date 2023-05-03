@@ -1,0 +1,297 @@
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+:root {
+    --color-bg-primary: #f7f7ff;
+    --color-bg-secondary: #eeeeee;
+    --color-border: #bbbbbb;
+    --color-text: #555555;
+    --color-nadpisy: #0b0b15;
+    --color-orange: #ff9301;
+    --color-orange-opacity: rgba(255, 147, 1, 0.5);
+    --font-size-small: 0.9em;
+    --font-size-medium: 2em;
+    --font-size-big: 6em;
+    --border-radius: 0.3em;
+    --height-menu: 3em;
+    --section-margin-top: 4vw;
+    --section-margin-bottom: 4vw;
+}
+
+
+h1,h2,h3 {
+    color: var(--color-nadpisy);
+    font-weight: 900;
+}
+
+
+.main--secondary {
+    background-color: var(--color-bg-primary);
+    max-width: 100%;
+    width: 100%;
+    margin: 0 -250rem;
+    padding: 0 250rem
+}
+
+p, time {
+    color: var(--color-text);
+    
+}
+
+
+.title__letter {
+    position: relative;
+    z-index: 1;
+}
+
+
+.title__letter::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #ff9301;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    left: -10px;
+    opacity: 50%;
+    z-index: -1;
+    
+}
+
+
+.container__img img {
+    position: relative;
+    left: 100px;
+    top: 6px;
+    
+}
+
+.header__wrapper {
+    display: flex;
+    flex-flow: row-reverse;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.header__wrapper .container {
+    width: 50%;
+}
+
+.header__wrapper .container__img {
+    width: 50%
+}
+
+
+.header__nav ul li {
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    padding-top: 3em;
+    margin-left: -40px;
+    gap: 1em;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color:  var(--color-text);
+    position: relative;
+}
+
+.header__nav a:hover::before {
+    content: url('');
+    position: absolute;
+    display: inline-block;
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-orange);
+    bottom: -1em;
+}   
+
+.header__nav a:hover {
+    color:#0b0b15;
+}
+
+header{
+    position: relative;
+
+}
+
+
+header::after{
+    content: '';
+    display:inline-block;
+    position: absolute;
+    background-color: #ff9301;
+    border-radius: 50%;
+    width: 900px;
+    height: 800px;
+    opacity: 50%;
+    bottom: 0;
+    z-index: -1;
+    bottom: -200px;
+    left: 580px;
+}
+
+
+
+.header__title {
+    font-size: var(--font-size-big);
+    margin: -40px 0;
+}
+
+.header__subtitle {
+    color: #ff9301;
+    font-size: 2em;
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+.bio__title {
+    padding-top: 7vw;
+
+}
+
+.bio .container {
+    display: flex;
+    
+
+}
+
+.bio__img img {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    background-color: #ff9301;
+    border-radius: 50%;
+}
+
+.bio__img {
+    padding-top: 5vw;
+}
+
+figure {
+    width: 30%; 
+    margin: 0 auto;
+}
+
+.bio__text {
+    width: 70%;
+    margin: 0;
+    margin-right: 70px;
+}
+
+.bio__img__text {
+    padding: 2em;
+    padding-top: 0.5em;
+}
+
+.bio__img__title {
+    font-weight: 900;
+    font-size: 2em;
+    color:#0b0b15;
+    margin: 0;
+}
+
+.bio__img__text span {
+    color: #ff9301;
+}
+
+.section__between__line {
+    background-image: url("source/border-dark.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    height: 7px;
+    max-width: 1140px;
+    margin: 4vw auto;
+
+}
+
+
+
+.work {
+    padding-bottom: 4vw;
+}
+
+.work__flex {
+    display: flex;
+}
+
+.work__block {
+    padding: 1em;
+    margin: 1em 1em 1em 0;
+    background-color: white;
+    border-radius: 5%;
+    height: 500px;
+    width: 500px;
+    height: max-content;
+}
+
+
+.work__block h3{
+    position: relative;
+}
+
+
+.work__block img {
+    height: 5em;
+    width: 5em;
+    padding-bottom: 2em;
+}
+
+.work__block {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.work__block::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    background-color: var(--color-orange);
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+    top: -5em;
+    left: -50px
+}
+
+
+.awards {
+    padding-bottom: 4vw;
+}
+
+.awards__flex {
+    display: flex;
+    gap: 20px;
+}
+
+.awards__block {
+    height: max-content;
+    width: 500px;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.awards__block__img {
+    height: 3em;
+    width: 3em;
+    position: relative;
+    top: 1em;
+}
