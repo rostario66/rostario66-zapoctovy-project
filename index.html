@@ -19,7 +19,7 @@
 <body>
     <header class="header">
         <section class="header__wrapper">
-            <div class="container__img"><img src="source/avatar.svg" alt=""></div>
+            <div class="container__img"></div>
             <div class="container">
                 <div class="header__text">
                     <h4>Hello, My name is</h4>
@@ -47,29 +47,31 @@
         <div class="main--secondary">
             <section class="bio" id="bio">
                 <div class="container">
-                    <figure class="bio__img">
-                        <img src="/zapProject/source/avatar.svg" alt="">
-                        <figcaption>
-                            <div class="bio__img__text">
-                                <p class="bio__img__title">Jane Doe</p>
-                                <span>Full-Stack Developer</span>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <div class="bio__text">
-                        <h2 class="bio__title title__letter">Biography</h2>
-                        <p>I'm Freelancer Front-end Developer with over 3 years of experience. I'm from San
-                            Francisco. i
-                            code and create web elements for amazing people around the world. I like work with new
-                            people. New people new Experiences.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic rerum rem delectus
-                            blanditiis nemo sequi cum modi velit obcaecati incidunt, adipisci corrupti quae
-                            dignissimos
-                            assumenda, quia beatae a quibusdam!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dicta laborum voluptate
-                            nobis beatae veritatis vel, quae repellat ad iusto recusandae sed explicabo in placeat
-                            vitae
-                            ratione rem repudiandae odit!</p>
+                        <div class="bio__flex">
+                        <figure class="bio__img">
+                            <img src="/source/avatar.svg" alt="">
+                            <figcaption>
+                                <div class="bio__img__text">
+                                    <p class="bio__img__title">Jane Doe</p>
+                                    <span>Full-Stack Developer</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <div class="bio__text">
+                            <h2 class="bio__title title__letter">Biography</h2>
+                            <p>I'm Freelancer Front-end Developer with over 3 years of experience. I'm from San
+                                Francisco. i
+                                code and create web elements for amazing people around the world. I like work with new
+                                people. New people new Experiences.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic rerum rem delectus
+                                blanditiis nemo sequi cum modi velit obcaecati incidunt, adipisci corrupti quae
+                                dignissimos
+                                assumenda, quia beatae a quibusdam!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dicta laborum voluptate
+                                nobis beatae veritatis vel, quae repellat ad iusto recusandae sed explicabo in placeat
+                                vitae
+                                ratione rem repudiandae odit!</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -107,17 +109,17 @@
                     <h2 class="awards__title title__letter">Awards</h2>
                     <div class="awards__flex">
                         <div class="awards__block">
-                            <img src="/zapProject/source/trophy-solid.svg" alt="" class="awards__block__img">
+                            <img src="/source/trophy-solid.svg" alt="" class="awards__block__img">
                             <p class="awards__block__text">Creative Designer</p>
                         </div>
                         
                         <div class="awards__block">
-                            <img src="/zapProject/source/trophy-solid.svg" alt="" class="awards__block__img">
+                            <img src="/source/trophy-solid.svg" alt="" class="awards__block__img">
                             <p class="awards__block__text">Yearly Best Performer</p>
                         </div>
                         
                         <div class="awards__block">
-                            <img src="/zapProject/source/trophy-solid.svg" alt="" class="awards__block__img">
+                            <img src="/source/trophy-solid.svg" alt="" class="awards__block__img">
                             <p class="awards__block__text">Best Learner Award</p>
                         </div>
                     </div>
@@ -127,42 +129,42 @@
         <section class="experience" id="experience">
             <div class="container">
                 <h2 class="experience__title title__letter">Experience</h2>
-                <div class="experience__block">
-                    <div class="experience__date">
-                        <time class="experience__block__date" datetime="01-02-2021">Feb 2021 - Present</time>
-                        <p><span class="work__time">Full Time</span></p>
+                <div class="experience__flex">
+                    <div class="experience__block">
+                        <div class="experience__date">
+                            <time class="experience__block__date" datetime="01-02-2021">Feb 2021 - Present</time>
+                            <p class="work__time">Full Time</p>
+                        </div>
+                        <div class="experience__text">
+                            <h3 class="experience__block__title">Google LLC - Sr. Front-end Engineer</h3>
+                            <p class="experience__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Veritatis nisi quod architecto ut ratione error iusto sunt adipisci cumque quidem
+                                incidunt quis pariatur commodi at neque perferendis, minus distinctio itaque?</p>
+                        </div>
                     </div>
-                    <div class="experience__text">
-                        <h3 class="experience__block__title">Google LLC - Sr. Front-end Engineer</h3>
-                        <p class="experience__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Veritatis nisi quod architecto ut ratione error iusto sunt adipisci cumque quidem
-                            incidunt quis pariatur commodi at neque perferendis, minus distinctio itaque?</p>
+                    <div class="experience__block">
+                        <div class="experience__date">
+                            <time class="experience__block__date" datetime="01-03-2020">Mar 2020 - Present</time>
+                            <p class="work__time work__time--reversed">Part Time</p>
+                        </div>
+                        <div class="experience__text">
+                            <h3 class="experience__block__title">Ridian IT - Visual Designer</h3>
+                            <p class="experience__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Veritatis nisi quod architecto ut ratione error iusto sunt adipisci cumque quidem
+                                incidunt quis pariatur commodi at neque perferendis, minus distinctio itaque?</p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="experience__block">
-                    <div class="experience__date">
-                        <time class="experience__block__date" datetime="01-03-2020">Mar 2020 - Present</time>
-                        <p><span class="work__time work__time--reversed">Part Time</span></p>
-                    </div>
-                    <div class="experience__text">
-                        <h3 class="experience__block__title">Ridian IT - Visual Designer</h3>
-                        <p class="experience__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Veritatis nisi quod architecto ut ratione error iusto sunt adipisci cumque quidem
-                            incidunt quis pariatur commodi at neque perferendis, minus distinctio itaque?</p>
-                    </div>
-                </div>
-
-                <div class="experience__block">
-                    <div class="experience__date">
-                       <p><time class="experience__block__date" datetime="01-01-2019">Jan 2019</time> - Present</p>
-                        <p><span class="work__time">Full Time</span></p>
-                    </div>
-                    <div class="experience__text">
-                        <h3 class="experience__block__title">IB Themes - Animation Artist</h3>
-                        <p class="experience__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Veritatis nisi quod architecto ut ratione error iusto sunt adipisci cumque quidem
-                            incidunt quis pariatur commodi at neque perferendis, minus distinctio itaque?</p>
+                    <div class="experience__block">
+                        <div class="experience__date">
+                            <time class="experience__block__date" datetime="01-01-2019">Jan 2019 - Present</time>
+                            <p class="work__time">Full Time</p>
+                        </div>
+                        <div class="experience__text">
+                            <h3 class="experience__block__title">IB Themes - Animation Artist</h3>
+                            <p class="experience__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Veritatis nisi quod architecto ut ratione error iusto sunt adipisci cumque quidem
+                                incidunt quis pariatur commodi at neque perferendis, minus distinctio itaque?</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -170,73 +172,107 @@
         <section class="portfolio" id="portfolio">
             <div class="container">
                 <h2 class="portfolio__title title__letter">My Portfolio</h2>
-                <div class="portfolio__block">
-                    <img src="" alt="" class="portfolio__block__img">
-                    <h3 class="portfolio__block__title">Lorem ipsum</h3>
-                    <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
-                    <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati cumque
-                        veniam, culpa dolor incidunt nihil ipsam nobis pariatur consequuntur!</p>
-                </div>
-
-                <div class="portfolio__block">
-                    <img src="" alt="" class="portfolio__block__img">
-                    <h3 class="portfolio__block__title">Lorem ipsum</h3>
-                    <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
-                    <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati cumque
-                        veniam, culpa dolor incidunt nihil ipsam nobis pariatur consequuntur!</p>
-                </div>
-
-                <div class="portfolio__block">
-                    <img src="" alt="" class="portfolio__block__img">
-                    <h3 class="portfolio__block__title">Lorem ipsum</h3>
-                    <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
-                    <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati cumque
-                        veniam, culpa dolor incidunt nihil ipsam nobis pariatur consequuntur!</p>
-                </div>
-
-                <div class="portfolio__block">
-
-
-                    <img src="" alt="" class="portfolio__block__img">
-                    <h3 class="portfolio__block__title">Lorem ipsum</h3>
-                    <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
-                    <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati cumque
-                        veniam, culpa dolor incidunt nihil ipsam nobis pariatur consequuntur!</p>
-                </div>
-
-                <div class="portfolio__block">
-                    <img src="" alt="" class="portfolio__block__img">
-                    <h3 class="portfolio__block__title">Lorem ipsum</h3>
-                    <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
-                    <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati cumque
-                        veniam, culpa dolor incidunt nihil ipsam nobis pariatur consequuntur!</p>
-                </div>
-
-                <div class="portfolio__block">
-                    <img src="" alt="" class="portfolio__block__img">
-                    <h3 class="portfolio__block__title">Lorem ipsum</h3>
-                    <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
-                    <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati cumque
-                        veniam, culpa dolor incidunt nihil ipsam nobis pariatur consequuntur!</p>
-                </div>
-
-                <div class="portfolio__block">
-                    <img src="" alt="" class="portfolio__block__img">
-                    <h3 class="portfolio__block__title">Lorem ipsum</h3>
-                    <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
-                    <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati cumque
-                        veniam, culpa dolor incidunt nihil ipsam nobis pariatur consequuntur!</p>
+                <div class="portfolio__grid">
+                    <div class="portfolio__block">
+                        <img src="/source/640x360.jpeg" alt="" class="portfolio__block__img">
+                        <h3 class="portfolio__block__title">Lorem ipsum</h3>
+                        <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
+                        <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati.</p>
+                    </div>
+                    <div class="portfolio__block">
+                        <img src="/source/640x360.jpeg" alt="" class="portfolio__block__img">
+                        <h3 class="portfolio__block__title">Lorem ipsum</h3>
+                        <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
+                        <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati.</p>
+                    </div>
+                    <div class="portfolio__block">
+                        <img src="/source/640x360.jpeg" alt="" class="portfolio__block__img">
+                        <h3 class="portfolio__block__title">Lorem ipsum</h3>
+                        <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
+                        <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati.</p>
+                    </div>
+                    <div class="portfolio__block">
+                        <img src="/source/640x360.jpeg" alt="" class="portfolio__block__img">
+                        <h3 class="portfolio__block__title">Lorem ipsum</h3>
+                        <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
+                        <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati.</p>
+                    </div>
+                    <div class="portfolio__block">
+                        <img src="/source/640x360.jpeg" alt="" class="portfolio__block__img">
+                        <h3 class="portfolio__block__title">Lorem ipsum</h3>
+                        <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
+                        <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati.</p>
+                    </div>
+                    <div class="portfolio__block">
+                        <img src="/source/640x360.jpeg" alt="" class="portfolio__block__img">
+                        <h3 class="portfolio__block__title">Lorem ipsum</h3>
+                        <time class="portfolio__block__date" datetime="07-13-2305">07/13/2305</time>
+                        <p class="portfolio__block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis ipsa quo maiores rem assumenda ad alias adipisci, velit, cum obcaecati.i</p>
+                    </div>
                 </div>
             </div>
         </section>
+        <div class="main--secondary">
+            <section class="contacts" id="contacts">
+                <div class="container">
+                        <h2 class="contacts__title title__letter">Contact </h2>
+                        <div class="contacts__flex">
+                            <div class="contacts__leftside">
+                                <h3>What's your story? Get in touch</h3>
+                                <p>Always available for freelancing if the right project comes along. Feel free to contact me.</p>
+                                <div class="contacts__leftside__textblock">
+                                    <img src="/source/map-marker-alt-solid.svg" alt="">
+                                    <span>Champ de Mars, 5 Av. Anatole France, 75007 Paris, Francie</span>
+                                </div>
+                                <div class="contacts__leftside__textblock">
+                                    <img src="/source/envelope-regular.svg" alt="">
+                                    <span>support@domain</span>
+                                </div>
+                                <div class="contacts__leftside__textblock">
+                                    <img src="/source/mobile-alt-solid.svg" alt="">
+                                    <span>555-2368</span>
+                                </div>
+                            </div>
+                            <div class="contacts__rightside">
+                                <h3 class="">Say something</h3>
+                                <form class="contacts__inputs">
+                                    <div class="contacts__info">
+                                        <input type="text" placeholder="Full Name" class="contacts__name">
+                                        <input type="email" placeholder="Email adress" class="contacts__email">
+                                    </div>
+                                    <input type="text" placeholder="Subject" class="contacts__subject">
+                                    <textarea id="input" type="input" placeholder="Type comment" class="contacts__holder"></textarea>
+                                </form>
+                                <button class="contacts__button">Send message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48518.676140004754!2d2.2886034017135373!3d48.864533968443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2z0K3QudGE0LXQu9C10LLQsCDQsdCw0YjQvdGP!5e0!3m2!1sru!2scz!4v1683026919321!5m2!1sru!2scz"
+                        width="0" height="0" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+            </section>
+        </div>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <div class="footer__img">
+                    <img src="/source/twitter-square-brands.svg" alt="">
+                    <img src="/source/facebook-square-brands.svg" alt="">
+                </div>
+                <p class="footer__text">© Lorem ipsum dolor sit amet 2022</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
